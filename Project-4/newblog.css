@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif|Sue+Ellen+Francisco|Waiting+for+the+Sunrise&display=swap');
+
+body {
+    font-family: 'Waiting for the Sunrise', cursive;
+    margin: 0;
+    background-color:#fff7e6;
+    line-height: 1.0em;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+
+header {
+    height: 260px;
+}
+
+h1 {
+    text-indent: 20px;
+    width: 140px;
+    height: 30px;
+    margin: 0px ;
+    padding: 1.0em;
+}
+
+h2 {
+  padding: 0.5em;
+  margin: 0px;
+}
+
+nav.footer {
+  clear: both;
+  color: #ffffff;
+  background-color: #aeaca8;
+  height: 30px;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+
+}
+
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav li a {
+  color: #020000;
+  text-decoration: none;
+}
+
+nav li a:hover, nav li a.current {
+  color: #000000;
+}
+
+section.courses {
+  float: left;
+  width: 659px;
+  border-right: 1px solid #eeeeee;
+}
+
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+/* hgroup {
+  margin-top: 40px;
+} */
+
+figure {
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 50px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+
+figcaption {
+  font-size: 90%;
+  text-align: left;
+}
+
+aside {
+  width: 230px;
+  float: left;
+  padding: 0px 0px 0px 20px;
+}
+
+aside a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+aside section a:hover {
+  color: #985d6a;
+  background-color: #efefef;
+}
+
+a {
+  color: #de6581;
+  text-decoration: none;
+}
+
+h1,h2 {
+ font-weight: normal;
+}
+
+h2 {
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+}
+aside h2 {
+  padding: 30px 0px 10px 0px;
+  color: #de6581;
+}
+footer {
+  font-size: 80%;
+  padding: 7px 0px 0px 20 px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+
+}
+
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+
+}
+img {
+    border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  }
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+}
+
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  } */
